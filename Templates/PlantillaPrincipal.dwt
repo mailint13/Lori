@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../img/logo-lauracb.jpg">
+    <!--ink href="../bootstrap/lobster/OFL.txt" rel="stylesheet"-->
+	<title>Psicóloga Laura Casarrubios</title>
+    <!-- Bootstrap core CSS -->
+    <!--link rel="stylesheet" type="text/css" href="../bootstrap/lobster?family=Lobster"-->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+	<link href="../bootstrap/css/bootstrap2.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../webfonts/Proza_Display/ProzaDisplay-SemiBold.otf">
+    
+           <script src="bootstrap/js/bootstrap.min.js"></script>
+     <script src="bootstrap/js/jquery.min.js"></script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="font-family:Campton; letter-spacing:2px; font:#60b69d">
+
+		<img  class="navbar-brand d-inline-flex" style="max-width:60px" atl="Laura Casarrubios" src="../img/logo-lauracb.jpg">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" target="_blank">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+              <a class="nav-link active" href="../Index.html" target="_blank">Inicio<span class="sr-only">(current)</span></a>
+
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="../contacto3.html">M&aacute;s sobre M&iacute; <span class="sr-only">(current)</span></a> 
+            </li>
+
+	     <li class="nav-item dropdown">
+            <!--a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"-->
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">     
+             Servicios<span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Individual.html">Terapia Individual</a>
+              <a class="dropdown-item" href="../pareja.html">Terapia de Pareja</a>
+              <a class="dropdown-item" href="../familia.html">Terapia familiar</a>
+            </div>
+      	</li>
+        <li class="nav-item">
+            <a class="nav-link" href="../consulta.html">     
+             Mi Consulta
+            </a>
+            <!--div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="hola.html">Visitas en Bacelona</a>
+            </div-->
+      	</li>       
+            <li class="nav-item">
+              <a class="nav-link" href="../contacto.html">Contacto<span class="sr-only">(current)</span></a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hola.html">El Blog<span class="sr-only">(current)</span></a> 
+            </li>
+          </ul>
+        </div>
+     </nav>
+     
+      <main role="main">
+	<!-- TemplateBeginEditable name="EditRegionBody3" -->EditRegionBody3
+    
+	
+	<!-- TemplateEndEditable -->
+
+    
+    <!--div id="pie" class="container-fluid" style="background-color:#ee9b9b45"; marron:#e8ca95;verde:#60b69d -->
+    <!--pie-->
+     
+    </main>
+
+           <script src="../bootstrap/js/bootstrap.min.js"></script> 
+              <script src="../bootstrap/js/jquery.min.js"></script>
+    <script src="../bootstrap/js/popper.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>     
+
+
+     
+</body>
+</html>

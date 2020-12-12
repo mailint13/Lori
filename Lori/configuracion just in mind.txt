@@ -1,0 +1,59 @@
+cabecera:
+width: 1290.0px;
+height: 476.0px;
+font-family: Roboto-Regular;
+font-size: 13.333334px;
+text-align: center;
+color: #434343;
+background-color: #60B69D;
+
+
+
+boton
+width: 1024.0px;
+height: 5395.0px;
+
+tarjeta:
+width: 373.9296875px;
+height: 565.9999999999998px;
+font-family: OpenSans-Light;
+font-size: 13.333334px;
+text-align: center;
+color: #434343;
+background-color: #FFFFFF;
+border: 1px solid #DDDDDD;
+
+botón negro:
+width: 261.83592224121094px;
+height: 50.0px;
+font-family: OpenSans-Regular;
+font-size: 18.666668px;
+text-align: center;
+color: #FFFFFF;
+background-color: #282828;
+border: 0px solid #404040;
+border-radius: 0px;
+
+cuadrado rosa:
+width: 1290.0px;
+height: 550.0px;
+font-family: OpenSans-Light;
+font-size: 13.333334px;
+text-align: center;
+color: #434343;
+background: linear-gradient(#FDDFC7,#FFFFFF);
+
+chica pensando:
+width: 277.1484374999998px;
+height: 396.0px;
+font-family: OpenSans-Light;
+font-size: 13.333334px;
+text-align: center;
+color: #434343;
+background-color: #FDDFC7;
+background-image: 3811637.jpg;
+background-size: contain;
+background-position: center center;
+background-image-opacity: 1.0;
+
+
