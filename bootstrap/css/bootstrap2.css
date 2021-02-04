@@ -10268,7 +10268,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .bgimg-4{
 	min-height:300px;
-	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/IMG_20210120_153016%5B17292%5D.jpg") fixed center center;
+	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/cactus.jpg") fixed center center;
 }
 bgimg-1, .bgimg-2, .bgimg-3, .bimg-4{
 /**nac efecto foto scroll **/
