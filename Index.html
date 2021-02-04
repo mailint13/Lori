@@ -12,6 +12,7 @@
     <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
 	<link href="bootstrap/css/bootstrap2.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--link href="../aos/aos.css" rel="stylesheet"-->
 
     <link rel="stylesheet" href="webfonts/Proza_Display/ProzaDisplay-SemiBold.otf">
     <!--link href="../aos/aos.css" rel="stylesheet"-->
@@ -39,12 +40,12 @@
 
             </li>
            <li class="nav-item">
-              <a class="nav-link" href="Laura-Casarrubios.html">M&aacute;s sobre M&iacute; <span class="sr-only">(current)</span></a> 
+              <a class="nav-link" href="Laura-Casarrubios.html">Sobre M&iacute; <span class="sr-only">(current)</span></a> 
             </li>
 
 	     <li class="nav-item dropdown">
             <!--a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"-->
-            <a class="nav-link dropdown-toggle" href="Index.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">     
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">     
              Servicios<span class="sr-only">(current)</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -73,7 +74,30 @@
      </nav>
      
       <main role="main">
+      <div id="float-cta">
+    <span>Env&iacute;ame un whatsapp!</span>
+    <a href="javascript:void(0);">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </a>
+    <div class="whatsapp-msg-container">
+        <div class="whatsapp-msg-header">
+            <h6>WhatsApp Chat</h6>
+        </div>
+        <div class="whatsapp-msg-body">
+            <textarea name="whatsapp-msg" class="whatsapp-msg-textarea" placeholder="Hola, podés consultar vía whatsapp..."></textarea>
+        </div>
+        <div class="whatsapp-msg-footer">
+            <button type="button" class="btn-whatsapp-send">Enviar</button>
+        </div>
+    </div>
+</div>
 	<!-- InstanceBeginEditable name="EditRegionBody3" -->
+    <!--div style="right:20px; left:auto; bottom: 8px; position:fixed"> 
+            <span class="fa fa-whatsapp" style="color:#60b69d; background-color:transparent; font-size:60px" onclick=""></span>
+    </div-->
+    
+    
     
     <div class="container-fluid" style="padding-top:100px">
         <div class="row" style="position:relative;" id="portada">
@@ -109,39 +133,42 @@
            
            <div class="container-fluid"  style="padding-top:4rem">
     
-      <div class="row d-flex" style="padding:1.5rem">
-      	<div class="col-12 col-lg-4" style="display:inline-flex; padding-bottom:1.5rem; text-align:justify">
-        	<span class="fa fa-user-o" style="color:#60b69d; font-size:36.8px; font-style:normal">
+      <div class="row d-flex" style="padding:1.5rem; font-size:21px">
+      	<div class="col-12 col-lg-4" style="display:grid; padding-bottom:1.5rem; text-align:center; justify-items:center">
+        	<span class="fa fa-user-o" style="color:#60b69d; font-size:60px; font-style:normal">
             </span>
             Soy Licenciada en Psicología y Psicoterapeuta. Soy empática, generando un espacio de 
             confianza, respeto, cercanía y libertad. Si quieres conocerme un poco más... 
         </div>
-      	<div class="col-12 col-lg-4" style="display:inline-flex; padding-bottom:1.5rem; text-align:justify">
-        	<span class="fa fa-hand-o-right" style="color:#60b69d; font-size:36.8px; font-style:normal">
+      	<div class="col-12 col-lg-4" style="display:grid; padding-bottom:1.5rem; text-align:center; justify-items:center">
+        	<span class="fa fa-hand-o-right" style="color:#60b69d; font-size:60px; font-style:normal">
             </span>
             Trabajo con problemas que hacen referencia a uno mismo, la pareja o la familia. 
             Si tienes ansiedad, estrés o te sientes apático/a... puedo ayudarte
         </div>
-      	<div class="col-12 col-lg-4" style="display:inline-flex; padding-bottom:1.5rem; text-align:justify">
-        	<span class="fa fa-globe" style="color:#60b69d; font-size:36.8px; font-style:normal">
+      	<div class="col-12 col-lg-4" style="display:grid; padding-bottom:1.5rem; text-align:center; justify-items:center">
+        	<span class="fa fa-globe" style="color:#60b69d; font-size:60px; font-style:normal">
             </span>
             Podemos vernos presencialmente en Barcelona, pero puedo acompañarte en cualquier parte del mundo...
         </div>
       </div>
       <div class="row" style="justify-content: center; padding:2rem">
-        <button class="btn-dark">CONTACTA CONMIGO</button>
+        <button class="btn-lg btn-dark">CONTACTA CONMIGO</button>
       </div>
     </div>
     
     <div class="container-fluid bgimg-1" style="padding-top:90px; padding-bottom:90px; background-color:white">    
-    <div class="row" style="padding-left:2rem">
-        	<div class="section-title" data-aos="fade-left">
+    <div class="row">
+        	<div class="section-title" data-aos="fade-left" style="padding:3rem">
          		 <h2>Servicios</h2>
           			<p>
           	        
           			</p>
        		</div>
         </div>
+        
+        	
+        
     <div class="row justify-content-center">
            		<!--div class="col  d-none d-lg-block" style="margin-left:300px; margin-right:300px"-->
 
@@ -153,13 +180,16 @@
                 				<img class="img-tarjeta" src="img/terapia-online.jpg">
                                 	<h3><br>Terapia Online</h3>
                               	<p><hr>
-                                Meet, Skype ... elige tu plataforma</p>
+                                Desde donde quieras y con mayor flexibilidad, asegurando tu confidencialidad y calidad en el servicio.
+                                </p>
                             </div>
                             <div class="flip-card-back">
                             	<h1>Terapia Online</h1>
-                              	<p>tatatatata</p>
-                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
-								<div class="fa fa-calendar" style="font-size:40px"></div> Pide Cita </a>
+                              	<p><cite>Si tu única herramienta es un martillo, tiendes a tratar cada problema como si fuera un clavo</cite><br /><footer> Abraham Maslow</footer> </p>
+                                <div style="position:absolute; bottom:0">
+	                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
+									<div class="fa fa-calendar" style="font-size:40px; bottom:0"></div> Pide Cita </a>
+                                </div>
                             </div> 
                         </div>                
                     </div>
@@ -175,13 +205,15 @@
                 				<img class="img-tarjeta" src="img/terapia-individual.jpg">
                                 	<h3><br>Terapia Individual</h3>
                               	<p><hr>
-                                Niños, jóvenes y Adultos</p>
+                                Un espacio para cuidar de ti y conseguir los cambios que buscas</p>
                             </div>
                             <div class="flip-card-back">
                             	<h1>Terapia Individual</h1>
-                              	<p>tatatatata</p>
-                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
-								<div class="fa fa-calendar" style="font-size:40px"></div> Pide Cita </a>
+                              	<p><cite>Yo quisiera ser yo, pero un poco mejor</cite><br /><footer> Mario Benedetti</footer> </p>
+                              	<div style="position:absolute; bottom:0">
+                                	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
+									<div class="fa fa-calendar" style="font-size:40px"></div> Pide Cita </a>
+                                </div>
                             </div> 
                         </div>                
                     </div>
@@ -196,13 +228,15 @@
                 				<img class="img-tarjeta" src="img/terapia-pareja.jpg">
                                 	<h3><br>Terapia en Pareja</h3>
                               	<p><hr>
-                                Ven con tu pareja</p>
+                                Una visión externa puede ayudaros en las dificultades que no os permiten solucionar el problema</p>
                             </div>
                             <div class="flip-card-back">
                             	<h1>Terapia en Pareja</h1>
-                              	<p>tatatatata</p>
-                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
-								<div class="fa fa-calendar" style="font-size:40px"></div> Pide Cita </a>
+                              	<p><cite>A veces lo imposible solo tarda un poco más</cite><br /><footer>Anónimo</footer> </p>
+                              	 <div style="position:absolute; bottom:0">
+	                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
+									<div class="fa fa-calendar" style="font-size:40px; bottom:0"></div> Pide Cita </a>
+                                </div>
                             </div> 
                         </div>                
                     </div>
@@ -218,13 +252,15 @@
                 				<img class="img-tarjeta" src="img/terapia-familiar.jpg">
                                 	<h3><br>Terapia Familiar</h3>
                               	<p><hr>
-                                Ven con tu familia</p>
+                                Favorece la comprensión, el apoyo emocional y el desarrollo de estrategias para solucionar distintos conflictos en la familia</p>
                             </div>
                             <div class="flip-card-back">
                             	<h1>Terapia Familiar</h1>
-                              	<p>tatatatata</p>
-                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
-								<div class="fa fa-calendar" style="font-size:40px"></div> Pide Cita </a>
+                              	<p><cite>La familia es un sistema donde cada una de las partes influye en el estado de las demás</cite><br /><footer>Teoría de la Terapia Sistémica</footer> </p>
+                              	 <div style="position:absolute; bottom:0">
+	                              	<a class="btn-lg btn-block text-white" style="font-size:xx-large" href="https://www.doctoralia.es/laura-casarrubios/psicologo-psicopedagogo/barcelona">
+									<div class="fa fa-calendar" style="font-size:40px; bottom:0"></div> Pide Cita </a>
+                                </div>
                             </div> 
                         </div>                
                     </div>
@@ -240,7 +276,7 @@
     
         <div class="row" style="padding-left:2rem">
         	<div class="section-title" data-aos="fade-left">
-         		 <h2>Testimonios</h2>
+         		 <h2>Opiniones</h2>
           			<p>
           	        
           			</p>
@@ -297,7 +333,7 @@
        		</div>
     <!--/div-->    
     
-  <div class="container-fluid"  style="background-color:#60b69d">  
+  <div class="container-fluid"  style="background-color:#60b69d; padding:3rem">  
   
   	<div class="row d-flex justify-content-around align-items-center">
     
@@ -336,7 +372,7 @@
    
     
     
-   <div class="container-fluid bgimg-1" style="padding:4rem">
+   <!--div class="container-fluid bgimg-1" style="padding:4rem">
     		<div class="row d-flex justify-content-end" style="padding:2rem; font-style:italic; text-align:center">
         		<div class="col-8 text-center">
         			<h2 style="bottom:200px; text-align:center">
@@ -346,7 +382,17 @@
             		<footer style="text-align:right; bottom:200px; alignment-adjust:right">-- Gandhi --</footer>
             	</div>
        		</div>
-    </div> 
+    </div--> 
+     <section id="cta" class="cta" style="padding-top:4rem; padding-bottom:4rem">
+      <div class="bgimg-4">
+
+        <div class="text-center" data-aos="zoom-in" style="font-style:italic; padding:4rem">
+          <h3>"Debemos convertirnos en el cambio que queremos ver"</h3>
+          <footer style="text-align:right; bottom:200px; alignment-adjust:right; color:white">-- Gandhi --</footer>
+        </div>
+
+      </div>
+    </section>
     
          <hr role="separator" />       
          
@@ -396,7 +442,11 @@
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>  
+        <script src="bootstrap/js/whatsapp.js"></script>  
+    <!--script src="../aos/aos.js"></script-->
     <!--script src="../aos/aos.js"></script-->   
+      <!-- Template Main JS File -->
+  <!--script src="../aos/main.js"></script-->
 
 
      
