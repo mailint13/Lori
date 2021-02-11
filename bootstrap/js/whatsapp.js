@@ -6,7 +6,7 @@ function initWhatsappChat() {
     if (mobileDetect) {
         $('#float-cta .whatsapp-msg-container').css('display','none');
         $('#float-cta > a').on('click', function(){
-            window.location = 'https://api.whatsapp.com/send?phone=+34678638808';
+            window.location = 'https://api.whatsapp.com/send?phone=+34687954865';
         });
     } else {
         $('#float-cta > a').click(function(){
@@ -18,7 +18,7 @@ function initWhatsappChat() {
             event.stopPropagation();
         });
         $('.btn-whatsapp-send').click(function() {
-            var baseUrl = 'https://web.whatsapp.com/send?phone=+34678638808&text=';
+            var baseUrl = 'https://web.whatsapp.com/send?phone=+34687954865&text=';
             var textEncode = encodeURIComponent($('#float-cta .whatsapp-msg-body textarea').val());
             window.open(baseUrl + textEncode, '_blank');
         });
