@@ -556,10 +556,11 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /**padding-right: 15px;
+  padding-left: 15px;**/
   margin-right: auto;
   margin-left: auto;
+  padding: 1.5rem
 }
 
 @media (min-width: 576px) {
@@ -10255,14 +10256,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bgimg-1{
 	//*background-image:url(../../img/aa.png);**/
-	min-height4600px;
+	min-height: 4600px;
 }
 .bgimg-2{
 	background-image:url(../../lori/img/ifos-fondo-3.JPG);
 	min-height:400px;
 }
 .bgimg-3{
-	background-image:url(../../img/prueba-laura-3.jpg);
+	/*background-image:url(../../img/prueba-laura-3.jpg);*/
+	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/prueba-laura-3.jpg");
 	min-height:600px;
 	
 }
@@ -10272,10 +10274,28 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .bgimg-5{
 	min-height:600px;
-	background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-online.jpg");
 
 }
-bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+.bgimg-6{
+	min-height:300px;
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-individual.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-individual.jpg");
+
+}
+.bgimg-7{
+	min-height:300px;
+	background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-pareja.jpg");
+
+}
+.bgimg-8{
+	min-height:300px;
+	background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-familiar.jpg");
+
+}
+
+bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8{
 /**nac efecto foto scroll **/
 
   height: 100%; 
@@ -10289,7 +10309,7 @@ bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
 
 }
 
-.bgimg-4 h3 {
+.bgimg-4, .bgimg-6 , .bgimg-7 , .bgimg-8 h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
@@ -10299,7 +10319,7 @@ bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
     background-attachment: scroll;
   }
 }
@@ -10930,6 +10950,96 @@ src: url(../../webfonts/Campton/Campton-Light.otf);
   }
 }
 
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+	/**background-color:#dbbba6;**/
+	padding: 1.5rem;
 
+}
+.services .icon-box {
+  text-align: justify;
+  padding: 40px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
 
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  border: 1px solid #009970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+  color: #009970;
+}
+
+.services .icon-box .icon i {
+  font-size: 28px;
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #36343a;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services .icon-box:hover h4 a {
+  color: #009970;
+}
+
+.services .icon-box:hover .icon {
+  color: #fff;
+  background: #009970;
+}
+/*--------------------------------------------------------------
+# Circulo para los precios
+--------------------------------------------------------------*/
+
+#circulo {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	background: #60b69d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	color: #fff;
+	-webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+
+}
+#circulo  p {
+	font-family: sans-serif;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
 
