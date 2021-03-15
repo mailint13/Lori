@@ -4658,7 +4658,7 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-nav .nav-link {
   /**nac cambio color letras nav color: rgba(0, 0, 0, 0.5);**/
-  color:#60b69d;
+  /**color:#60b69d;**/
   /**nac esta no me gusta, es muy fina font-weight:100;**/
 }
 
@@ -10262,21 +10262,10 @@ a.text-dark:hover, a.text-dark:focus {
 	background-image:url(../../lori/img/ifos-fondo-3.JPG);
 	min-height:400px;
 }
-.bgimg-3{
-	/*background-image:url(../../img/prueba-laura-3.jpg);*/
-	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/prueba-laura-3.jpg");
-	min-height:600px;
-	
-}
+
 .bgimg-4{
 	min-height:300px;
 	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/cactus.jpg") fixed center center;
-}
-.bgimg-5{
-	min-height:600px;
-	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
-	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-online.jpg");
-
 }
 .bgimg-6{
 	min-height:300px;
@@ -10294,8 +10283,46 @@ a.text-dark:hover, a.text-dark:focus {
 	background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-familiar.jpg");
 
 }
+.bgimg-3{
+	/*background-image:url(../../img/prueba-laura-3.jpg);*/
+	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-individual.jpg");
+	min-height:600px;
+	
+}
+.bgimg-5{
+	min-height:600px;
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-online.jpg");
 
-bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8{
+}
+.bgimg-9{
+	min-height:600px;
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-pareja.jpg");
+
+}
+.bgimg-10{
+	min-height:600px;
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-familiar.jpg");
+
+}
+.bgimg-11{
+	min-height:600px;
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/laura-despacho.jpg");
+
+}
+.bgimg-12{
+	min-height:600px;
+	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/despacho-claro.jpg");
+	background-repeat:space;
+
+}
+
+
+bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11{
 /**nac efecto foto scroll **/
 
   height: 100%; 
@@ -10323,6 +10350,23 @@ bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8{
     background-attachment: scroll;
   }
 }
+/** titulo arriba derecha**/
+.titulo {
+  padding: 30px;
+  position: absolute;
+  right: 30px;
+  /**bottom: -60px;**/
+  top: 60px;
+  color: #60b69d;
+  font-size: 4rem;
+  transition-delay: 1s;
+  /**background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.65);
+  min-width: 360px;
+  min-height: 190px;
+  z-index: 2;**/
+}
+
 /**titulo en el centro**/
 .caption {
   position: absolute;
@@ -10605,6 +10649,19 @@ src: url(../../webfonts/Campton/Campton-Light.otf);
   min-height: 190px;
   z-index: 2;
 }
+/** INFO PARA LA PAGINA DE CONTACTO**/
+.info-contacto {
+  padding: 30px;
+  position: absolute;
+  right: 20px;
+  /**bottom: -60px;**/
+  top: 200px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.65);
+  min-width: 360px;
+  min-height: 190px;
+  z-index: 2;
+}
 
 .section-title h2 {
   font-size: 32px;
@@ -10719,7 +10776,12 @@ src: url(../../webfonts/Campton/Campton-Light.otf);
 	transform:translate3d(100px,0,0);
 	
 }
-
+/*--------------------------------------------------------------
+# Estilo de enlaces dentro de tarjeta blanca #60b69d
+--------------------------------------------------------------*/
+li a {
+color:#60b69d;
+}
 
 /*--------------------------------------------------------------
 # Estilo de Whatsapp #60b69d
