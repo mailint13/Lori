@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color:darkslategray;
 }
 
 abbr[title],
@@ -10304,7 +10305,7 @@ a.text-dark:hover, a.text-dark:focus {
 .bgimg-10{
 	min-height:600px;
 	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
-	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-familiar.jpg");
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(299, 244, 244, 0.7)), url("../../img/terapia-familiar.jpg");
 
 }
 .bgimg-11{
@@ -10371,10 +10372,11 @@ bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 30%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: white;
+  transition-delay: 1.3s
 }
 
 /* Style all font awesome icons */
