@@ -10285,22 +10285,25 @@ a.text-dark:hover, a.text-dark:focus {
 
 }
 .bgimg-3{
-	/*background-image:url(../../img/prueba-laura-3.jpg);*/
-	background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-individual-1.jpg");
 	min-height:600px;
+	/*background-image:url(../../img/prueba-laura-3.jpg);*/
+	/*background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-individual.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(299, 244, 244, 0.7)), url("../../img/terapia-individual.jpg");
+	
 	
 }
 .bgimg-5{
 	min-height:600px;
 	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
-	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-online-1.jpg");
+	/*background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-online.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(299, 244, 244, 0.7)), url("../../img/terapia-online.jpg");
 
 }
 .bgimg-9{
 	min-height:600px;
 	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
-	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-pareja.jpg");
-
+	/*background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/terapia-pareja.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(299, 244, 244, 0.7)), url("../../img/terapia-pareja.jpg");
 }
 .bgimg-10{
 	min-height:600px;
@@ -10311,7 +10314,8 @@ a.text-dark:hover, a.text-dark:focus {
 .bgimg-11{
 	min-height:600px;
 	/*background-image:linear-gradient(rgba(164, 149, 134, 0.64), rgba(0, 0, 0, 0.43)), url("../../img/terapia-online.jpg");*/
-	background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/laura-despacho.jpg");
+	/*background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/laura-despacho.jpg");*/
+	background-image:linear-gradient(rgba(2, 2, 2, 0.44), rgba(299, 244, 244, 0.7)), url("../../img/laura-despacho.jpg");
 
 }
 .bgimg-12{
@@ -10642,13 +10646,13 @@ src: url(../../webfonts/Campton/Campton-Light.otf);
 .info {
   padding: 30px;
   position: absolute !important;
-  right: 20px;
+  right: 25px;
   /**bottom: -60px;**/
   /**top: 460px;**/
   top: -150px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.65);
-  min-width: 360px;
+  min-width: 560px;
   min-height: 190px;
   z-index: 2;
 }
@@ -10724,7 +10728,8 @@ src: url(../../webfonts/Campton/Campton-Light.otf);
 }
 
 .why-us .icon-boxes .icon-box {
-  text-align: center;
+  /*text-align: center;*/
+  text-align:start;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -10747,7 +10752,8 @@ src: url(../../webfonts/Campton/Campton-Light.otf);
 
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #60b69d;
+  /*color: #60b69d;*/
+ /* color:#b59a85;*/
 }
 
 .why-us .icon-boxes .icon-box:hover {
